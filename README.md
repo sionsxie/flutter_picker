@@ -22,7 +22,7 @@ Flutter plugin picker. Include NumberPicker, DateTimePicker, ArrayPicker, and de
 # add this line to your dependencies
 flutter_picker:
   git:
-    url: https://github.com/yangyxd/flutter_picker.git
+    url: https://github.com/sionsxie/flutter_picker.git
 ```
 ```dart
 import 'package:flutter_picker/flutter_picker.dart';
