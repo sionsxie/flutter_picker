@@ -1,3 +1,10 @@
+1.去除无用的方法和没有定义的builder
+
+/// get widget 去除无用方法
+  // Widget getWidget(BuildContext context) {
+  //   return builder == null ? picker : builder(context, picker);
+  // }
+
 # flutter_picker
 
 [![pub package](https://img.shields.io/pub/v/flutter_picker.svg)](https://pub.dartlang.org/packages/flutter_picker)
