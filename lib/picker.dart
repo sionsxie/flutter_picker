@@ -218,10 +218,10 @@ class Picker {
         });
   }
     
-  /// get widget
-  Widget getWidget(BuildContext context) {
-    return builder == null ? picker : builder(context, picker);
-  }
+  /// get widget 去除无用方法
+  // Widget getWidget(BuildContext context) {
+  //   return builder == null ? picker : builder(context, picker);
+  // }
 
   /// show dialog picker
   Future<List<int>?> showDialog(BuildContext context,
